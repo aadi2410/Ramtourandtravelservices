@@ -820,7 +820,7 @@ div#offcanvasTop {
 .banner{
   position: relative;
   height: calc(100vh - 110px);
-  background-image: url(/assets/images/travel-img/img20.jpg);
+  background-image: url(../images/travel-img/img20.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2247,27 +2247,27 @@ footer.main__footer.p_relative {
 
 /* Home-Two-About */
 .about-banner{
-  background: url(/assets/images/travel-img/about.jpeg);
+  background: url(../images/travel-img/about.jpeg);
   background-size: cover !important;
   background-position: center !important;
 }
 .gallery-banner{
-  background: url(/assets/images/travel-img/gallery.jpg);
+  background: url(../images/travel-img/gallery.jpg);
   background-size: cover !important;
   background-position: center !important;
 }
 .destination-banner{
-  background: url(/assets/images/travel-img/destination.jpeg);
+  background: url(../images/travel-img/destination.jpeg);
   background-size: cover !important;
   background-position: center !important;
 }
 .blog-banner{
-  background: url(/assets/images/travel-img/love.jpg);
+  background: url(../images/travel-img/love.jpg);
   background-size: cover !important;
   background-position: center !important;
 }
 .blog-details-banner{
-  background: url(/assets/images/travel-img/love.jpg);
+  background: url(../images/travel-img/love.jpg);
   background-size: cover !important;
   background-position: center !important;
 }
@@ -3945,7 +3945,7 @@ blog + blog details
 .contact-banner {
   background-size: cover !important;
     background-position: center !important;
-    background: url(/assets/images/travel-img/contactus.jpg);
+    background: url(../images/travel-img/contactus.jpg);
 }
 .contact{
   padding: 140px 0;
