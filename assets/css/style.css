@@ -820,7 +820,7 @@ div#offcanvasTop {
 .banner{
   position: relative;
   height: calc(100vh - 110px);
-  background-image: url(../images/travel-img/img20.jpg);
+  background-image: url(../images/travel-img/temple.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -4022,7 +4022,7 @@ blog + blog details
 }
 .fixed-icons .fa-square-phone{
   font-size: 50px;
-  color: red;
+  color: #0a4175;
   z-index: 999999999;
   cursor: pointer;
 }

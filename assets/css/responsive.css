@@ -296,18 +296,9 @@
     .header_top {
       padding: 15px 10px;
     }
-    .auto_container{
-      max-width: 1280px;
-    }
     .main-menu .navigation > li{
       margin: 0 10px;
     }
-    .main-menu .navigation > li > a {
-      letter-spacing: 3px;
-    }
-    /* header */
-
-    /* banner */
     .banner-content-wrapper-inner h2 {
       font-size: 62px;
       line-height: 80px;
@@ -810,10 +801,6 @@
       color: black;
     }
 
-    .auto_container{
-      max-width: 1024px;
-    }
-
     .mobile-menu .close-btn{
       top: 40px;
     }
@@ -1011,9 +998,6 @@
     }
     .banner-media ul {
       margin-left: 0px;
-    }
-    .footer-media p {
-      margin-left: 20px;
     }
     .footer-info a {
       font-size: 14px;
@@ -1304,9 +1288,6 @@
 
 
   @media only screen and (min-width: 769px) and (max-width: 991px){
-    .auto_container {
-      max-width: 735px;
-    }
     .header__right {
       margin-left: 13%;
     }
@@ -1444,8 +1425,33 @@
 
   
 @media only screen and (max-width: 768px){
-
-  /* header */
+  .banner .btn-1{
+    padding: 10px 40px;
+    z-index: 0;
+  }
+  .footer__middle__content .footer_column:nth-child(3), .footer__middle__content .footer_column:nth-child(4){
+    padding-top: 35px;
+  }
+  .widget_title h4{
+    padding-bottom: 10px;
+  }
+  .contact-head.auto_container{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contact-head .banner-media{
+    display: none;
+  }
+  .contact-head.auto_container .flexbox{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .contact-head.auto_container .flexbox a{
+    font-size: 12px;
+  }
+  .contact-head.auto_container .flexbox svg{
+    width: 12px;
+  }
   .header_top_left{
     display: none;
   }
@@ -1461,10 +1467,6 @@
   .main-header.style-one .logo__shape {
     width: calc(50% - 180px);
     height: 100%;
-  }
-
-  .main-header .logo-box .logo {
-    padding: 30px 0;
   }
 
   .header__right{
@@ -1593,24 +1595,9 @@
   .footer-align {
     margin-top: 50px;
   }
-  /* footer */
-   /* =====================
-  home one page ends
-  ========================*/
-
-  /* =====================
-  home two page starts
-  ========================*/
-  /* header */
-  .auto_container {
-    max-width: 676px;
-  }
   .home-two-menu-area .mobile-nav-toggler .icon-bar {
     background-color: #ffffff;
   }
-  /* header */
-
-  /* banner */
   .home-two-banner-wrapper {
     width: 80%;
     height: 780px;
@@ -1803,18 +1790,9 @@
   .gallery-text a{
     font-size: 107px;
   }
-  /* gallery content */
-
-  /* footer */
   .footer-align {
     margin-top: 0;
   }
-  .footer_widget.left {
-    margin-bottom: 50px;
-  }
-  /* footer */
-
-
 }
 
 @media only screen and (min-width: 741px) and (max-width: 767px){
@@ -2490,12 +2468,9 @@
   .banner {
     height: 850px;
   }
-  .banner-content-wrapper {
-    height: 850px;
-  }
   .banner-content-wrapper-inner h2 {
-    font-size: 38px;
-    line-height: 58px;
+    font-size: 34px;
+    line-height: 40px;
   }
   .banner-btn-media {
     display: block;

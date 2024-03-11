@@ -282,6 +282,7 @@ menu ends
 	text-transform: capitalize;
 	transition: .5s;
   background: #0076ff;
+  z-index: 0;
 }
 
 .btn-1 span {
