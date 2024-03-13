@@ -272,17 +272,22 @@ menu ends
 	position: relative;
 	display: inline-flex;
 	overflow: hidden;
-	padding: 15px 25px;
-  border-radius: 5px;
+	padding: 10px 15px;
+  border-radius: 25px;
 	text-align: center;
 	z-index: 1;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 700;
 	color: #ffffff;
 	text-transform: capitalize;
 	transition: .5s;
   background: #0076ff;
   z-index: 0;
+}
+.enquiry-btn{
+  background-color: white;
+  color: #0076ff;
+
 }
 
 .btn-1 span {
@@ -326,7 +331,6 @@ menu ends
 ===========================*/
 .align-title{
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .common-title{

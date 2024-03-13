@@ -6,6 +6,38 @@
   -ms-transition:all 500ms ease;
   -o-transition:all 500ms ease;
 }
+.texi-box .row{
+  align-items: center;
+}
+.texi-box{
+  padding-bottom: 0px !important;
+}
+.align-title.texi-service-box h3{
+  text-align: start !important;
+  margin-bottom: 10px;
+}
+.align-title.texi-service-box h5{
+  text-align: start !important;
+}
+.align-title.texi-service-box{
+  text-align: start !important;
+}
+.profile-image img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #004274;
+  margin-bottom: 20px;
+}
+.profile-image{
+  margin-bottom: 20px;
+}
+.profile-image h3{
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+}
 .contact-head{
   display: flex;
   justify-content: space-between;
@@ -820,7 +852,7 @@ div#offcanvasTop {
 .banner{
   position: relative;
   height: calc(100vh - 110px);
-  background-image: url(../images/travel-img/temple.png);
+  background-image: url(../images/travel-img/img27.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -893,10 +925,6 @@ div#offcanvasTop {
   font-size: 70px;
   line-height: 85px;
   color: #fff;
-}
-.banner-content-wrapper-inner h2 span{
-  color: #0076ff;
-  position: relative;
 }
 .banner-text-shape{
   position: absolute;
@@ -1227,7 +1255,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 /* category */
 .category{
-  padding-top: 140px;
+  padding-top: 100px;
   padding-bottom: 70px;
   position: relative;
 }
@@ -1301,6 +1329,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .category-content:hover .category-content-inner{
   margin-top: -60px;
 }
+.category .align-title{
+  margin-bottom: 20px;
+}
 /* category */
 
 /* deals */
@@ -1309,6 +1340,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 .deals .common-title{
   position: relative;
+  text-align: center;
 }
 .deals .common-title .deal-icon{
   position: absolute;
@@ -1475,8 +1507,8 @@ section.fanfact {
 }
 .countbox{
   background-color: #000;
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 15px;
+  padding: 30px 20px;
 }
 .funfact-container{
   display: flex;
@@ -1493,6 +1525,7 @@ section.fanfact {
 .funfact-inner-box p{
   color: #fff;
   font-size: 14px;
+  padding-block: 10px;
 }
 .funfact-inner-box h6{
   color: #777777;
