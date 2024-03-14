@@ -12,15 +12,30 @@
 .texi-box{
   padding-bottom: 0px !important;
 }
+.texi-box img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.texi-box img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.texi-box .align-title{
+  overflow: hidden;
+  background-color: gray;
+  border: 2px solid gray;
+  border-radius: 15px;
+}
+.texi-box .align-title.texi-service-box{
+  border: none;
+  background-color: transparent !important;
+}
+.texi-box .header-link-btn{
+  margin: auto;
+}
 .align-title.texi-service-box h3{
-  text-align: start !important;
   margin-bottom: 10px;
-}
-.align-title.texi-service-box h5{
-  text-align: start !important;
-}
-.align-title.texi-service-box{
-  text-align: start !important;
 }
 .profile-image img{
   width: 200px;
@@ -255,7 +270,6 @@ header.main-header.style-three .sticky-header .logo-box .logo img{
 .main-menu .navigation > li > ul > li{
   position:relative;
   width:100%;
-  padding: 0px 30px;
   border-bottom: 1px dashed rgba(0,0,0,0.1);
   -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -300,10 +314,10 @@ header.main-header.style-three .sticky-header .logo-box .logo img{
 .main-menu .navigation > li > .megamenu li > a{
   position:relative;
   display:block;
-  padding:18px 0px;
+  padding:10px;
   line-height:24px;
   font-weight:400;
-  font-size:18px;
+  font-size:16px;
   text-transform:capitalize;
   text-align: left;
   transition:all 500ms ease;
@@ -344,7 +358,6 @@ header.main-header.style-three .sticky-header .logo-box .logo img{
 .main-menu .navigation > li > ul > li > ul > li{
   position:relative;
   width:100%;
-  padding: 0px 25px;
   border-bottom: 1px dashed rgba(0,0,0, 0.1);
 }
 .main-menu .navigation > li > ul > li:hover > ul > li{
@@ -378,7 +391,7 @@ header.main-header.style-three .sticky-header .logo-box .logo img{
 .main-menu .navigation > li > ul > li > ul > li > a{
   position:relative;
   display:block;
-  padding:18px 0px;
+  padding:10px;
   line-height:24px;
   font-weight:400;
   font-size:16px;
@@ -634,6 +647,7 @@ header.main-header.style-three .sticky-header .logo-box .logo img{
 }
 .mobile-menu .navigation li > a{
   position: relative;
+  cursor: pointer;
   display: block;
   line-height: 24px;
   padding: 10px 25px;
@@ -744,26 +758,6 @@ div#mCSB_1_container{
 ::-ms-input-placeholder {
   color: inherit;
 }
-.header__right {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.header-right-search a {
-  display: inline-block;
-  color: #000000;
-  font-size: 22px;
-}
-.header__right__button .btn i{
-  display: inline-block;
-  color: #000000;
-  font-size: 26px;
-}
-.header__right__button .btn a:hover{
-  color: #0076ff;
-}
-
-/* popup form starts*/
 .primary i{
   font-size: 24px;
   color: #000000;
@@ -782,14 +776,8 @@ div#mCSB_1_container{
 .btn-close:hover i{
   color: #0076ff !important;
 }
-.header__right__button .offcanvas-header{
-  padding: 2rem 1rem;
-}
 .offcanvas-header .btn-close{
   transform: rotate(45deg);
-}
-.header__right__button .offcanvas-header .btn-close{
-  transform: rotate(0deg);
 }
 .btn-close i{
   font-size: 42px;
@@ -852,7 +840,7 @@ div#offcanvasTop {
 .banner{
   position: relative;
   height: calc(100vh - 110px);
-  background-image: url(../images/travel-img/img27.jpg);
+  background-image: url(../images/travel-img/maheshwar-fort.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1325,6 +1313,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .category-content:hover .category-btn{
   opacity: 1;
   visibility: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .category-content:hover .category-content-inner{
   margin-top: -60px;
@@ -1503,7 +1494,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 section.fanfact {
   margin-top: -80px;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 .countbox{
   background-color: #000;
@@ -1965,12 +1956,6 @@ footer.main__footer.p_relative {
 .home-two-auto-container{
   max-width: 1800px;
 }
-.home-two-auto-container .header__right {
-  width: 300px;
-}
-/* home two header ends */
-
-/* home two banner */
 .home-two-banner{
   height: 912px;
   position: relative;
@@ -4055,14 +4040,12 @@ blog + blog details
 }
 .fixed-icons .fa-square-phone{
   font-size: 50px;
-  color: #0a4175;
-  z-index: 999999999;
-  cursor: pointer;
+  color: rgb(0, 118, 255);
+  z-index: 999999;
 }
 .fixed-icons .fa-square-whatsapp{
   font-size: 50px;
   color: #25D366;
-  z-index: 999999999;
-  cursor: pointer;
+  z-index: 999999;
   margin-top: 10px;
 }

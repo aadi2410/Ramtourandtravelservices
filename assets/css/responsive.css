@@ -657,10 +657,6 @@
       display: inline-block;
       width: 100px;
     }
-    .header__right__button .btn i{
-      font-size: 20px;
-      margin-left: 10px;
-    }
   }
 
   @media only screen and (min-width: 1025px) and (max-width: 1199px){
@@ -696,10 +692,6 @@
 
   @media only screen and (min-width: 1025px) and (max-width: 1200px){
 
-    /* .header__right {
-      margin-left: 47%;
-    } */
-
     .main-menu {
       display: block !important;
     }
@@ -734,9 +726,6 @@
   }
 
   @media only screen and (max-width: 1024px){
-    .header__right{
-      display: none;
-    }
     .menu-area .mobile-nav-toggler {
       display: block;
       padding: 12px;
@@ -761,10 +750,6 @@
     .main-header .logo-box .logo {
       padding: 15px 0;
     }
-
-    /* .header__right {
-      margin-left: 45%;
-    } */
 
     .mobile-menu{
       background: #ffffff;
@@ -1245,9 +1230,6 @@
   }
 
   @media only screen and (min-width: 769px) and (max-width: 991px){
-    /* .header__right {
-      margin-left: 13%;
-    } */
     .banner {
       height: 720px;
     }
