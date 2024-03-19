@@ -592,17 +592,6 @@
   .contact {
     padding: 100px 0;
   }
-  /* contact */
-
-  /* about */
-  .tour-guide-container {
-    padding: 40px 10px;
-  }
-  /* about */
-
-  /* =======================
-    tour
-    ==========================*/
     .tour-package {
       padding-top: 100px;
       padding-bottom: 100px;
@@ -726,6 +715,7 @@
   }
 
   @media only screen and (max-width: 1024px){
+
     .menu-area .mobile-nav-toggler {
       display: block;
       padding: 12px;
@@ -774,7 +764,7 @@
     }
 
     .banner .btn-1{
-      padding: 20px 40px;
+      padding: 10px 40px;
     }
 
     .banner-content-wrapper{
@@ -897,7 +887,7 @@
 
     /* category */
     .category{
-      padding-top: 100px;
+      padding-top: 30px;
     }
     .category-content {
       width: 196px;
@@ -929,15 +919,6 @@
     .funfact-inner-box h6 {
       font-size: 22px;
     }
-    /* funfact */
-
-    /* destination */
-    .destination {
-      padding: 100px 0;
-    }
-    /* destination */
-
-    /* blog */
     .blog {
       padding: 100px 0;
     }
@@ -1108,35 +1089,9 @@
     .portfolio-content{
       margin-bottom: 20px;
     }
-    /* portfolio */
-    /* ====================
-    home three
-    ======================= */
-
-    /* =====================
-    ABOUT
-    ========================*/
-    .tour-guide-container {
-      padding: 20px 15px;
-      margin-bottom: 30px;
-    }
-    .tour-guid-image {
-      width: 185px;
-      height: 130px;
-    }
-
-    /* common banner */
     .common-banner {
       height: 400px;
     }
-    /* common banner */
-    /* =======================
-    ABOUT
-    ==========================*/
-
-    /* =====================
-    blog
-    =======================*/
     .card-header a {
       display: inline-block;
       bottom: -193px;
@@ -1228,7 +1183,11 @@
       font-size: 46px;
     }
   }
-
+  @media (min-width: 992px) {
+    .padding-right{
+      padding-right: 0px;
+    }
+  }
   @media only screen and (min-width: 769px) and (max-width: 991px){
     .banner {
       height: 720px;
@@ -1321,10 +1280,6 @@
       padding-top: 0;
     }
 
-    .about-page {
-      height: 1820px;
-    }
-
     .place-content {
       height: 290px;
       width: 342px;
@@ -1353,8 +1308,50 @@
 
   
 @media only screen and (max-width: 768px){
+  .destination-form-container form{
+    flex-direction: column;
+    gap: 0;
+  }
+  .about-list-div{
+    grid-template-columns: auto auto;
+  }
+  .home-two-about-content p{
+    line-height: normal;
+  }
+  .about-list-div p{
+    font-size: 14px;
+    line-height: normal;
+  }
+  .destination-form-container form.contact-check{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+  }
+  .contact-check input[type="checkbox"]{
+    margin-top: 10px;
+  }
+  .contact-check{
+    margin-top: 10px;
+  }
+  .destination-form-container{
+    padding: 15px 10px;
+  }
+  .contact-number-icon{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 45px;
+  }
+  .contact-number ul li a{
+    font-size: 14px;
+    line-height: unset;
+  }
+  .contact-number{
+    gap: 10px;
+  }
   .banner .btn-1{
-    padding: 10px 40px;
+    padding: 10px 15px;
     z-index: 0;
   }
   .footer__middle__content .footer_column:nth-child(3), .footer__middle__content .footer_column:nth-child(4){
@@ -1469,7 +1466,12 @@
     margin: 0;
   }
   .deals-info {
-    padding: 40px;
+    padding: 10px;
+  }
+  .deals-info-link{
+    font-size: 20px;
+    line-height: normal;
+    margin-bottom: 0px;
   }
   /* deals */
 
@@ -1477,17 +1479,11 @@
   .video-container .destination-video-btn {
     left: 56%;
   }
-  /* video */
-
-  /* destination */
-  .destination-image {
-    margin-bottom: 20px;
-  }
-  /* destination */
-
-  /* funfact */
   .funfact-container {
     margin-bottom: 40px;
+  }
+  .countbox .col-lg-3:last-child .funfact-container{
+    margin-bottom: 0px;
   }
   /* funfact */
 
@@ -1550,13 +1546,6 @@
   }
   .add .video-container{
     margin-bottom: 30px;
-  }
-  /* home two add */
-
-  /* popular */
-  .popular-ture {
-    padding-top: 110px;
-    padding-bottom: 100px;
   }
   .popular-ture-content {
     margin-bottom: 20px;
@@ -1672,43 +1661,16 @@
   .dd-image-flex {
     width: 330px;
   }
-  /* =====================
-  destination
-  ========================*/
-
-  /* =======================
-  tour
-  ==========================*/
   .tour-guid-image {
     width: 100%;
     height: 190px;
   }
-  /* ========================
-  tour
-  =========================*/
-
-  /* ======================
-  about
-  ========================*/
   .about-page {
     height: auto;
-    padding-bottom: 80px;
   }
-  /* =====================
-  about
-  ========================*/
-
-  /* ======================
-  blog
-  ========================*/
   .destination-details-right-container {
     margin-top: 80px;
   }
-   /* ======================
-  blog
-  ========================*/
-  
-  /* gallery content */
   .gallery-content{
     width: 100%;
   }
@@ -1740,10 +1702,6 @@
   }
 }
 
-@media only screen and (min-width: 380px) and (max-width: 740px){
- 
-}
-
 @media only screen and (min-width: 576px) and (max-width: 739px){
   .home-two-banner .container{
     max-width: 100%;
@@ -1751,60 +1709,32 @@
 
 }
 
-
-
-  @media only screen and (max-width: 991px){
-
-  }
-
-  @media only screen and (min-width: 821px) and (max-width: 993px){
-   
-
-  }
-
-
-
-  @media only screen and (max-width: 928px){
-    
-  }
-
-  @media only screen and (max-width: 767px){
-    
-
-  }
-
-  @media only screen and (max-width: 599px){
-  
-
-  }
-
-  @media only screen and (max-width: 499px){
-    
-
-  }
-
-  @media only screen and (max-width: 420px){
-   
-  }
-
-  @media only screen and (max-width: 399px){
-    
-
-  }
-
-  @media only screen and (min-width: 400px) and (max-width: 767px){
+  @media (max-width: 767px){
     .footer-align {
       display: flex;
       justify-content: flex-start;
       margin-top: 30px;
   }
-
+  .common-title h3, .contact .destination-right-title h4{
+    font-size: 24px;
+    line-height: normal;
+  }
+  section.fanfact{
+    padding: 12px;
+  }
+  .banner-content-wrapper-inner p{
+    line-height: normal;
+  }
   }
 
   @media only screen and (min-width: 360px) and (max-width: 740px){
   /* header */
   .header_top_right ul{
     gap: 5px;
+  }
+  .funfact-container {
+    justify-content: start;
+    margin-left: 30px;
   }
   .main-header.style-one .logo__shape {
     width: calc(50% - 0px);
@@ -1909,16 +1839,6 @@
   .video-container .destination-video-btn {
     top: 73%;
   }
-  /* video */
-
-  /* funfact */
-  .funfact-container {
-    justify-content: start;
-    margin-left: 30px;
-  }
-  /* funfact */
-
-  /* destination */
   .destination-content-1 {
     border-radius: 0px 0px 0px 0px;
   }
@@ -2388,10 +2308,26 @@
 
 
 }
+@media (max-width: 500px){
+  .about-list-div{
+    grid-template-columns: auto;
+  }
+  .about-banner{
+    background: url(../images/travel-img/about-1.jpeg);
+    background-size: cover !important;
+    background-position: center !important;
+  }
+}
 
 @media only screen and (min-width: 320px) and (max-width: 359px){
   .banner {
     height: 850px;
+  }
+  .funfact-container {
+    justify-content: start;
+  }
+  .destination-form-container form{
+    gap: 30px;
   }
   .banner-content-wrapper-inner h2 {
     font-size: 34px;
@@ -2498,9 +2434,6 @@
   .testimonial-content {
     width: 272px;
   }
-  .home-two-about {
-    height: 1715px;
-  }
   .home-two-testimonial {
     padding-bottom: 80px;
   }
@@ -2574,9 +2507,6 @@
   }
   .home-three-blog .blog-image {
     height: 262px;
-  }
-  .about-page {
-    height: 2084px;
   }
   .about-page .about-right-image{
     height: 280px;
